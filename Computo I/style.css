@@ -1,3 +1,9 @@
+body{
+    background-color: rgb(103, 103, 197);
+    align-items: center;
+    padding: 100px;
+}
+
 .text{
     font-style: italic;
     text-emphasis-color: red;
