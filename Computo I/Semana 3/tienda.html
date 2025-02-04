@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+</head>
+<body>
+    <script>
+        let tienda = function(){
+            let total=Number(prompt("Ingrese el total a pagar: $"))
+            let paga=Number(prompt("Ingrese el efectivo con el que se paga: $"))
+
+            let cambio = new Number;
+
+            if(total>paga){
+                prompt("Dinero insuficiente")
+            }
+            else{
+                cambio = paga-total
+                prompt("El cambio es de $"+cambio)
+            }
+        }
+        tienda()
+    </script>
+</body>
+</html>
